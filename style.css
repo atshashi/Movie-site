@@ -1,0 +1,42 @@
+*{
+    box-sizing:border-box;
+}
+body {
+    overflow: scroll;
+    background-color: rgb(22, 31, 86);
+}
+
+h1 {
+    font-size: 100px;
+    color: aliceblue;
+    font-family: 'Climate Crisis', cursive;
+    margin: 20px;
+}
+
+input {
+    text-align: center;
+    background-color: rgb(40, 43, 85);
+    color: aliceblue;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-color: aliceblue;
+    padding: 10px;
+}
+
+button {
+    background-color: rgba(3, 4, 4, 100%);
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-color: aliceblue;
+    margin-right: 100px;
+    padding: 10px;
+}
+.form{
+    display: flex;
+    align-items: center; 
+}
+.nav {
+    margin: 20px;
+    display: flex;
+    justify-content:space-between;
+}
