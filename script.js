@@ -20,11 +20,11 @@ btn.addEventListener("click", function () {
 let apikey = "6b3b29d2079acd46344e9ab8ce42a455";
 let url = "https://api.themoviedb.org/3/movie/550?api_key=6b3b29d2079acd46344e9ab8ce42a455"
 
-    async function getData(url) {
-      const response = await fetch(url);
-      console.log(response);
-      let data  = await response.json();
-      console.log(data);
-    }
-    
-    getData(url);
+async function getData(url) {
+    const response = await fetch(url);
+    console.log(response);
+    let data = await response.json();
+    console.log(data);
+}
+
+getData(url);
